@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  background-color: #6ec7ab;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  padding: 3%;
+}
+
+.container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 27%;
+}
+
+.container header .logo {
+  font-weight: bolder;
+}
+
+.container header .navbar a {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
+
+.container header button {
+  padding: 7px;
+  background-color: white;
+  outline: none;
+  font-weight: bold;
+  border: white;
+  border-radius: 5px;
+  margin-top: -6px;
+}
+
+.container main .chat1 {
+  width: 25%;
+  -webkit-transform: translate(700px, 50px);
+  transform: translate(700px, 50px);
+}
+
+.container main .chat2 {
+  width: 25%;
+  -webkit-transform: translate(450px, 200px);
+  transform: translate(450px, 200px);
+}
+
+.container main .star {
+  width: 2%;
+  -webkit-transform: translate(-490px, -50px);
+  transform: translate(-490px, -50px);
+}
+
+.container main .pin {
+  width: 20%;
+  -webkit-transform: translate(-200px, 338px);
+  transform: translate(-200px, 338px);
+}
+
+.container main .box {
+  padding: 1%;
+  width: 24%;
+  margin-right: -20px;
+  margin-top: -80px;
+  margin-bottom: 100px;
+}
+
+.container main .box .bol {
+  font-weight: bolder;
+  font-size: 3rem;
+  letter-spacing: 0.2ch;
+}
+
+.container main .box hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 10%;
+}
+
+footer .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15%;
+}
+
+footer .item .item1 {
+  background: #00acfc;
+  padding: 5%;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer .item .item1 p {
+  color: white;
+}
+
+
+footer .item .item2 {
+  background-color: #0057fb;
+  padding: 5%;
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer .item .item2 p{
+  color: white;
+  font-size: 15px;
+}
+footer .item .item2 p1{
+  color: grey;
+  font-size: 10px;
+ 
+}
+
+
+footer .item .item3 {
+  background: #00acfc;
+  padding: 5%;
+  margin-right: 150px;
+  margin-top: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+footer .item .item3 p {
+  color: white;
+  font-size-adjust: inherit;
+}
+/*# sourceMappingURL=style.css.map */
